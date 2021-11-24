@@ -41,7 +41,7 @@ namespace Mad_Dog
                     var result = await this.DisplayAlert("Congrats", "Success", "Yes", "Cancel");
 
                     if (result)
-                        await Navigation.PushModalAsync(new Users());
+                        await Navigation.PushModalAsync(new MVVM());
                 });
             }
             else
